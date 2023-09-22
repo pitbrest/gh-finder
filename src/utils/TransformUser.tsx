@@ -1,4 +1,4 @@
-import { GitHubUser, LocalGithubUser } from "types";
+import { GitHubUser, LocalGithubUser } from "../types/";
 
 function TransformUser(user: GitHubUser): LocalGithubUser {
   return {

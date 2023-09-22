@@ -1,4 +1,4 @@
-import { LocalGithubUser } from "types";
+import { LocalGithubUser } from "../types/";
 
 const defaultUser: LocalGithubUser = {
   login: "pitbrest",

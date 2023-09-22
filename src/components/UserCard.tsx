@@ -1,4 +1,5 @@
-import { UserCardProps } from "types";
+import React from "react";
+import { UserCardProps } from "../types/";
 import UserStat from "./UserStat";
 import UserTitle from "./UserTitle";
 import UserInfo from "./UserInfo";
@@ -6,11 +7,7 @@ import UserInfo from "./UserInfo";
 function UserCard(props: UserCardProps) {
   return (
     <div className="user-card p-4 rounded-lg md:p-10 sm:flex-row sm:items-start flex gap-10 flex-col items-center">
-      <img
-        className="w-32 h-32 rounded-full"
-        src={props.avatar}
-        alt="me"
-      />
+      <img className="w-32 h-32 rounded-full" src={props.avatar} alt="me" />
       <div className="w-full">
         <UserTitle
           name={props.name}

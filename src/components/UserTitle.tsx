@@ -1,4 +1,5 @@
-import { UserTitleProps } from "types";
+import React from "react";
+import { UserTitleProps } from "../types";
 
 const localDate = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",

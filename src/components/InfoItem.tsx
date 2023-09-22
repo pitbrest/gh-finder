@@ -1,4 +1,5 @@
-import { InfoItemProps } from "types";
+import React from "react";
+import { InfoItemProps } from "../types/";
 
 function InfoItem({ icon, text, isLink }: InfoItemProps) {
   const currentText = text || "Not available";
@@ -13,11 +14,7 @@ function InfoItem({ icon, text, isLink }: InfoItemProps) {
       <div className="icon-container w-8 h-8">{icon}</div>
       <div className="">
         {isLink && text ? (
-          <a
-            href={currentHref}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={currentHref} target="_blank" rel="noreferrer">
             {currentText}
           </a>
         ) : (

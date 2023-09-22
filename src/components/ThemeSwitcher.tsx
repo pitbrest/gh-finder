@@ -1,3 +1,4 @@
+import React from "react";
 import { ReactComponent as MoonIcon } from "../assets/moon.svg";
 import { ReactComponent as SunIcon } from "../assets/sun.svg";
 import { useEffect, useState } from "react";
@@ -13,10 +14,7 @@ function ThemeSwitcher() {
   }, [isDark]);
 
   return (
-    <div
-      className="flex gap-4 items-center"
-      onClick={() => setIsDark(!isDark)}
-    >
+    <div className="flex gap-4 items-center" onClick={() => setIsDark(!isDark)}>
       <span className="text-sm">{themeText}</span>
       <ThemeIcon className="w-8 h-8" />
     </div>

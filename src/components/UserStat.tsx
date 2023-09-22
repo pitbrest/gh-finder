@@ -1,4 +1,5 @@
-import { UserStatProps } from "types";
+import React from "react";
+import { UserStatProps } from "../types";
 
 function UserStat({ repos, followers, following }: UserStatProps) {
   return (

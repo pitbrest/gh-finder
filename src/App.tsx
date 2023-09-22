@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Container, Header } from "components";
-import Search from "components/Search";
-import UserCard from "components/UserCard";
-import { LocalGithubUser } from "types";
-import TransformUser from "utils/TransformUser";
-// import defaultUser from "mock";
+import React from "react";
+import { Container, Header } from "./components";
+import Search from "./components/Search";
+import UserCard from "./components/UserCard";
+import { LocalGithubUser } from "./types/";
+import TransformUser from "./utils/TransformUser";
 
 function App() {
   const [user, setUser] = useState<LocalGithubUser | null>(null);
@@ -28,10 +28,7 @@ function App() {
   return (
     <Container>
       <Header />
-      <Search
-        hasError={!respStatus}
-        onSubmit={fetchUser}
-      />
+      <Search hasError={!respStatus} onSubmit={fetchUser} />
       {user && <UserCard {...user} />}
     </Container>
   );

@@ -1,5 +1,6 @@
+import React from "react";
 import { useState } from "react";
-import { SearchProps } from "types";
+import { SearchProps } from "../types";
 import { ReactComponent as SearchIcon } from "../assets/search.svg";
 import Button from "./Button";
 
@@ -16,10 +17,7 @@ function Search({ hasError, onSubmit }: SearchProps) {
   };
 
   return (
-    <form
-      className="mb-12 search"
-      onSubmit={handleSubmit}
-    >
+    <form className="mb-12 search" onSubmit={handleSubmit}>
       <div className="relative">
         <label htmlFor="search">
           <SearchIcon className="w-8 h-8 absolute top-[1.1rem] left-2 md:left-3" />
