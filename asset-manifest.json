@@ -1,20 +1,20 @@
 {
-  "main.css": "/gh-finder/static/css/main.71e005b4.chunk.css",
-  "main.js": "/gh-finder/static/js/main.f9797d33.chunk.js",
-  "main.js.map": "/gh-finder/static/js/main.f9797d33.chunk.js.map",
-  "static/js/1.e91f776e.chunk.js": "/gh-finder/static/js/1.e91f776e.chunk.js",
-  "static/js/1.e91f776e.chunk.js.map": "/gh-finder/static/js/1.e91f776e.chunk.js.map",
-  "runtime~main.js": "/gh-finder/static/js/runtime~main.d870f576.js",
-  "runtime~main.js.map": "/gh-finder/static/js/runtime~main.d870f576.js.map",
-  "static/media/moon.bc5d540a.svg": "/gh-finder/static/media/moon.bc5d540a.svg",
-  "static/media/sun.795a5585.svg": "/gh-finder/static/media/sun.795a5585.svg",
-  "static/media/blog.69d61b76.svg": "/gh-finder/static/media/blog.69d61b76.svg",
-  "static/media/company.c9f4980b.svg": "/gh-finder/static/media/company.c9f4980b.svg",
-  "static/media/location.efc1e228.svg": "/gh-finder/static/media/location.efc1e228.svg",
-  "static/media/twitter.8f662cde.svg": "/gh-finder/static/media/twitter.8f662cde.svg",
-  "static/media/search.3cd696d3.svg": "/gh-finder/static/media/search.3cd696d3.svg",
-  "static/css/main.71e005b4.chunk.css.map": "/gh-finder/static/css/main.71e005b4.chunk.css.map",
-  "index.html": "/gh-finder/index.html",
-  "precache-manifest.8e8a0acab85050e0780e16d1b0526525.js": "/gh-finder/precache-manifest.8e8a0acab85050e0780e16d1b0526525.js",
-  "service-worker.js": "/gh-finder/service-worker.js"
+  "files": {
+    "main.css": "/gh-finder/static/css/main.fab6afbc.css",
+    "main.js": "/gh-finder/static/js/main.93dedeaf.js",
+    "static/media/company.svg": "/gh-finder/static/media/company.aa3dc3aa1b7fc574074bcf6f49348f31.svg",
+    "static/media/location.svg": "/gh-finder/static/media/location.f88399a8cdb95601e81350cb1972dc71.svg",
+    "static/media/twitter.svg": "/gh-finder/static/media/twitter.68848169578dc40ba95bc4b1106c3caa.svg",
+    "static/media/moon.svg": "/gh-finder/static/media/moon.2f10e5d4ac1d62a7e121cb580f14a118.svg",
+    "static/media/blog.svg": "/gh-finder/static/media/blog.4d5539ad658d6ae7dc363482a95083c6.svg",
+    "index.html": "/gh-finder/index.html",
+    "static/media/sun.svg": "/gh-finder/static/media/sun.9abac4b0500e309b346737f755e40939.svg",
+    "static/media/search.svg": "/gh-finder/static/media/search.6f44a3c907294ea9f8e9cb9313ef4d21.svg",
+    "main.fab6afbc.css.map": "/gh-finder/static/css/main.fab6afbc.css.map",
+    "main.93dedeaf.js.map": "/gh-finder/static/js/main.93dedeaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fab6afbc.css",
+    "static/js/main.93dedeaf.js"
+  ]
 }
