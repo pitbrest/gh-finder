@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --switcher-color1-1: #f4e8cb;
+  --switcher-color1-2: #374258;
+  --switcher-color2-1: #f3f3f3;
+  --switcher-color2-2: #6a7285;
+  --switcher-color3-1: #404b65;
+  --switcher-color3-2: #f3f3f3;
+  /* --switcher-color3-2: #274f7d; */
+}
+button {
+  font-weight: 500;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  user-select: none;
+}
+body[data-theme="light"] {
+  color: var(--switcher-color3-1);
+  background: var(--switcher-color1-1);
+}
+body[data-theme="dark"] {
+  color: var(--switcher-color3-2);
+  background: var(--switcher-color1-2);
+}
+
+body[data-theme="light"] button {
+  background-color: rgb(198 206 224);
+}
+body[data-theme="dark"] button {
+  background: #efcc00;
+}
+/* Header */
+.header svg path {
+  fill: rgb(61, 78, 118);
+}
+/* Search */
+form input {
+  outline: none;
+}
+form input:focus {
+  outline: 2px solid #ffffff;
+}
+form button {
+  position: absolute;
+  top: 0px;
+  right: 14px;
+}
+body[data-theme="light"] input {
+  background: var(--switcher-color2-1);
+}
+body[data-theme="dark"] input {
+  background: var(--switcher-color2-2);
+}
+body[data-theme="light"] input::placeholder {
+  color: var(--switcher-color2-2);
+}
+body[data-theme="dark"] input::placeholder {
+  color: var(--switcher-color2-1);
+}
+body[data-theme="light"] svg path {
+  stroke: var(--switcher-color2-2);
+}
+body[data-theme="dark"] svg path {
+  stroke: var(--switcher-color2-1);
+}
+
+/* UserCard */
+body[data-theme="light"] .user-card {
+  background: var(--switcher-color2-1);
+}
+body[data-theme="dark"] .user-card {
+  background: var(--switcher-color2-2);
+}
+body[data-theme="light"] .user-stat {
+  background: var(--switcher-color1-1);
+}
+body[data-theme="dark"] .user-stat {
+  background: var(--switcher-color1-2);
+}
+/* UserInfo */
+.user-info svg {
+  fill: #0ea5ea;
+}
+.user-info svg path {
+  fill: #0ea5ea;
+}
+.user-info div:nth-child(2) {
+  word-break: break-all;
+}
